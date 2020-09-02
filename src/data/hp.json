@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hypermarkety a supermarkety",
+    "leaflets": [
+      {
+        "name": "Kaufland let\u00e1k",
+        "slug": "kaufland",
+        "img": "https:\/\/img.kupi.cz\/letaky\/154352\/thumbs\/kaufland-letak-otrokovice-1_198_224.jpg"
+      },
+      {
+        "name": "Billa let\u00e1k",
+        "slug": "billa",
+        "img": "https:\/\/img.kupi.cz\/letaky\/153917\/thumbs\/billa-akcni-letak-1_198_224.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bydlen\u00ed, zahrada",
+    "leaflets": [
+      {
+        "name": "Tescoma let\u00e1k",
+        "slug": "tescoma",
+        "img": "https:\/\/img.kupi.cz\/letaky\/153851\/thumbs\/35-5f44a1083c4a7-1_198_224.jpg"
+      },
+      {
+        "name": "Obi let\u00e1k",
+        "slug": "obi",
+        "img": "https:\/\/img.kupi.cz\/letaky\/137585\/thumbs\/obi-letak-uzivejte-si-venku-1_198_224.jpg"
+      }
+    ]
+  }
+]
