@@ -12,7 +12,7 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/">Letáky</Nav.Link>
-            <Nav.Link as={Link} to="/sales">Akce</Nav.Link>
+            <Nav.Link as={Link} to="/slevy">Akce</Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Co hledáte?" className="mr-sm-2" />

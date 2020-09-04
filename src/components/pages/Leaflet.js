@@ -1,17 +1,18 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import ShoppingList from '../layout/ShoppingList';
-import SalesContent from '../layout/SalesContent';
+import LeafletContent from '../layout/LeafletContent';
 
-function Sales() {
+
+function Leaflet() {
   return (
     <Container>
       <Row>
-        <Col sm={8}><SalesContent /> </Col>
+        <Col sm={8}><LeafletContent /></Col>
         <Col sm={4}><ShoppingList /></Col>
       </Row>
     </Container>
   );
 }
 
-export default Sales;
+export default Leaflet;

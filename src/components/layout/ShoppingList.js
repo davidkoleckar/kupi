@@ -1,19 +1,17 @@
 import React from 'react';
-import {Card, ListGroup, ListGroupItem} from 'react-bootstrap';
+import {Card, Button} from 'react-bootstrap';
+import Notes from './Notes.js';
 
 function ShoppingList() {
   return (
     <Card>
-      <Card.Body>
-        <Card.Title>Nákupní košík</Card.Title>
+      <Card.Body className="text-center">
+        <Card.Title>Nákupní seznam</Card.Title>
+        <h6>Přihlásit se na Kupi.cz</h6>
+        <Button variant="success" size="sm" className='btn-block'>Přihlásit se</Button>
       </Card.Body>
-      <ListGroup className="list-group-flush">
-        <ListGroupItem>Cras justo odio</ListGroupItem>
-        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-        <ListGroupItem>Vestibulum at eros</ListGroupItem>
-      </ListGroup>
       <Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
+        <Notes />
       </Card.Body>
     </Card>
   );
