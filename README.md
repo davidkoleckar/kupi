@@ -1,9 +1,9 @@
-#KUPI - React.js
+# KUPI - React.js
 
-Install dependencies:
+## Install dependencies:
 npm install
 
-Serve on localhost:3000:
+## Serve on localhost:3000:
 npm start
 
 Testováno v Google Chrome
